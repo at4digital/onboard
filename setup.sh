@@ -12,6 +12,17 @@ echo "╔═══════════════════════�
 echo "║           AT4 Digital — Onboarding Bootstrap                ║"
 echo "╚══════════════════════════════════════════════════════════════╝"
 echo ""
+echo " Before continuing, confirm you have both of these:"
+echo ""
+echo "   [ ] A Claude Pro or Teams account (claude.ai)"
+echo "       You'll need it to log in on first use — no account = no Claude."
+echo ""
+echo "   [ ] An accepted invite to the at4digital GitHub org"
+echo "       Samuel sends it. Check github.com/at4digital or ask"
+echo "       boros.samuel@at4digital.com if you haven't received it."
+echo ""
+read -r -p " Both ready? Press Enter to continue, or Ctrl+C to stop. "
+echo ""
 
 # [1] Homebrew
 if ! command -v brew &>/dev/null; then
